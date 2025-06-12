@@ -1,5 +1,13 @@
+/*
+ * @Author: yz.jiang
+ * @Date: 2025-06-12 12:18:39
+ * @LastEditTime: 2025-06-12 12:19:35
+ * @LastEditors: yz.jiang
+ * @Description: 
+ * @FilePath: /gacha-machine-ui/vue.config.js
+ */
 
-const BASE_URL = process.env.NODE_ENV === "production" ? "/draw-lots-web/" : "./";
+const BASE_URL = process.env.NODE_ENV === "production" ? "/gacha-machine-ui/" : "./";
 module.exports = {
     publicPath: BASE_URL,
     lintOnSave: false,

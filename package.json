@@ -2,10 +2,13 @@
   "name": "draw-lots-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yzjiang97.github.io/gacha-machine-ui",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -28,6 +31,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-vue": "^8.0.3",
+    "gh-pages": "^6.3.0",
     "vue-template-compiler": "^2.6.14"
   }
 }
